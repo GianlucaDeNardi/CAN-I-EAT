@@ -1,6 +1,6 @@
 <h1 align="left">
-  CAN I EAT | Food Recognition AI APP | AI Face Log-In Security System
   <img src="assets/logo.png" alt="Logo" width="50" style="float: left;" />
+  CAN I EAT | Food Recognition AI APP | AI Face Log-In Security System
 </h1>
 
 ## 🧩 Project Overview
