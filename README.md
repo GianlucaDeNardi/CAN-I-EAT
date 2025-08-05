@@ -1,8 +1,20 @@
 # 🧠 CAN I EAT – Mobile AI App Integration with Face Recognition Security System
 
+This project integrates two core components into a cohesive mobile-first solution: a **secure face recognition log-in system** and a **real-time food recognition app** called *CAN I EAT*. Both modules are designed with a strong focus on **usability**, **privacy**, and **real-world applicability**, particularly in the field of health monitoring and secure user access.
+
+The first part of the project focuses on **biometric authentication** using facial recognition as a primary method of user identification. This system ensures that only authorized users can access sensitive features of the app. It relies on a secure cloud infrastructure (Google Cloud VM + Firestore), modern encryption algorithms (PBKDF2 with SHA-256, bcrypt), and AI-based face encoding via `face_recognition`.
+
+The second part, *CAN I EAT*, is an intelligent mobile app that allows users to **identify food items through their camera**, analyze possible **allergens**, and keep track of their food history. This system uses **Clarifai's food classification API** via a Dart backend and features a polished user interface developed in Android Studio.
+
+By combining advanced computer vision models with practical mobile UX, this project demonstrates how AI can support both **personal security** and **healthy living**, through a unified and intuitive digital experience.
+
+
 This project implements a **face recognition-based login system** for an Android mobile application, with a strong emphasis on **user data protection** and **cloud-based cybersecurity**. The system combines **facial biometrics**, **secure authentication**, and **encrypted credential storage**, ensuring a modern and safe user experience.
 
-## 📱 Project Overview
+
+## 🧠 Face Recognition Log-In System with Cybersecurity Focus
+
+### 📱 Project Overview
 
 - Developed with **Android Studio** (Frontend) and **Python** (Backend).
 - Backend hosted on a **secure Google Cloud VM**, accessible only by the owner via authenticated Google account login.
