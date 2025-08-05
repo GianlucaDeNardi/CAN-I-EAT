@@ -1,6 +1,6 @@
 # 🧠 CAN I EAT – Mobile AI App Integration with Face Recognition Security System
 
-This project integrates two core components into a cohesive mobile-first solution: a **secure face recognition log-in system** and a **real-time food recognition app** called *CAN I EAT*. Both modules are designed with a strong focus on **usability**, **privacy**, and **real-world applicability**, particularly in the field of health monitoring and secure user access.
+This project integrates two core components into a cohesive mobile-first solution: a **secure face recognition log-in system** and a **real-time food recognition app** called *CAN I EAT*. Both modules are designed with a strong focus on **usability**, **privacy**, and **real-world applicability**, particularly in the field of health monitoring and secure user access. The App works on Androind and Apple.
 
 The first part of the project focuses on **biometric authentication** using facial recognition as a primary method of user identification. This system ensures that only authorized users can access sensitive features of the app. It relies on a secure cloud infrastructure (Google Cloud VM + Firestore), modern encryption algorithms (PBKDF2 with SHA-256, bcrypt), and AI-based face encoding via `face_recognition`.
 
