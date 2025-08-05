@@ -1,4 +1,4 @@
-# 🧠 CAN I EAT – Mobile App Integration with Face Recognition Log-In System
+# 🧠 CAN I EAT – Mobile AI App Integration with Face Recognition Security System
 
 This project implements a **face recognition-based login system** for an Android mobile application, with a strong emphasis on **user data protection** and **cloud-based cybersecurity**. The system combines **facial biometrics**, **secure authentication**, and **encrypted credential storage**, ensuring a modern and safe user experience.
 
