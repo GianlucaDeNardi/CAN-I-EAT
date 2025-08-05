@@ -95,6 +95,77 @@ To manually test the facial recognition pipeline:
    test.ipynb
 ---
 
+---
+
+## 🔐 Facial Recognition – Login Flow
+
+### 📸 Step 1 – Face Captured
+![Face capture](assets/1.png)
+
+### ✅ Step 2 – Face Recognized (Login Successful)
+![Login success](assets/2.png)
+
+### ❌ Step 3 – Face Not Recognized (Fallback to Manual Login)
+![Login failed](assets/3.png)
+
+---
+
+## 📝 User Registration & Firestore Storage
+
+### 📲 Registration Request Sent from App
+![Register API call](assets/register.png)
+
+### 🗃️ Firestore – New User Record (Encrypted)
+![New user in Firestore](assets/new_user.png)
+
+
+---
+
+## 📲 CAN I EAT – App Screens
+
+Below are some key screens of the *CAN I EAT* mobile app, built in Flutter using Dart. The interface is designed for intuitive interaction and AI-powered food analysis.
+
+### 🔸 Splash Screen
+![Splash screen](assets/splash.png)
+
+A minimal splash screen featuring the logo, designed to match the theme and introduce the app brand.
+
+---
+
+### 🏠 Home Page
+![Home screen](assets/home.png)
+
+Main entry point with a round button to capture food images. Users can also access their photo gallery and detection history.
+
+---
+
+### 🍽️ Food Detection Result
+![Food detection result](assets/food_detection.png)
+
+The app returns results with a confidence percentage. If the score is above a threshold, the result is shown and the user can confirm or retake.
+
+---
+
+### 🖼️ Gallery Page
+![Gallery input](assets/gallery.png)
+
+Alternative input method: users can choose an image from the gallery to detect food instead of using the camera.
+
+---
+
+### 📑 Detail Page
+![Detail view](assets/detail.png)
+
+Displays ingredients and allergen icons for each detected item, improving clarity and health awareness.
+
+---
+
+### 🕓 History Page
+![History page](assets/history.png)
+
+Shows past detection results organized by date. Each entry includes an image preview, food label, and editing options.
+
+---
 
 
 ## 👨‍🎓 Author
