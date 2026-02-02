@@ -49,7 +49,7 @@ The app allows users to take or select a photo, analyze it through the AI model,
 
 ---
 
-### 🎯 Vision
+### 🎯 Idea
 
 By combining **computer vision**, **cloud security**, and **user-centered design**, this project demonstrates how AI technologies can be effectively applied to support both **personal security** and **healthy living**, all within an intuitive and cohesive mobile experience.
 
@@ -66,7 +66,7 @@ This section describes how to set up the facial recognition system and test the 
 2. **Download your personal credentials** from Google Cloud in `.json` format, to ensure secure, user-specific data access.
 3. **Upload credentials to the VM** and set the environment variable:
    ```bash
-   export GOOGLE_APPLICATION_CREDENTIALS="/home/gianlucagiuseppe_denardi/elated-scope-434412-d0-f77e8a853a32.json"
+   export GOOGLE_APPLICATION_CREDENTIALS="/home/user/credentials.json"
 4. **Start the backend service** with:
    ```bash
    python3 app.py
